@@ -1,0 +1,29 @@
+{
+  "name": "pvoice",
+  "version": "1.0.0",
+  "description": "pvoice",
+  "main": "index.js",
+  "repository": "https://github.com/PichotM/pVoice",
+  "author": "pichotm",
+  "scripts": {
+    "build": "yarn run buildc && yarn run builds",
+    "buildc": "webpack --mode production --config webpack/client.config.js",
+    "builds": "webpack --mode production --config webpack/server.config.js",
+    "watch": "yarn run watchc && yarn run watchs",
+    "watchc": "webpack --mode development --watch true --config webpack/client.config.js",
+    "watchs": "webpack --mode development --watch true --config webpack/server.config.js"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@citizenfx/client": "^1.0.2083-1",
+    "@citizenfx/server": "^1.0.2083-1",
+    "@types/node": "^12.12.22"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.0.2",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.2"
+  }
+}

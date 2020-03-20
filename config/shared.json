@@ -1,0 +1,18 @@
+{
+    "debug": false,
+    "switchModeDefaultKey": "f6",
+    "switchRadioDefaultKey": "k",
+    "enableTokovoipWrapper": true,
+    "use3dAudio": true,
+    "useSendingRangeOnly": true,
+    "phrases": {
+        "switchVoiceMode": "Switch voice mode",
+        "switchModeNotif": "The intensity of your voice has been set on mode:",
+        "switchRadioChannel": "Switch radio channel"
+    },
+    "voiceModes": [
+        { "name": "Whisper", "distance": 4 },
+        { "name": "Normal", "distance": 10 },
+        { "name": "Yell", "distance": 20 }
+    ]
+}

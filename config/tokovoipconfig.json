@@ -1,0 +1,9 @@
+{
+    "channels": [
+        { "name": "Call PD Radio"},
+		{ "name": "EMS Radio"},
+		{ "name": "PD/SO/EMS Shared Radio"},
+		{ "name": "SO Radio"},
+		{ "name": "PD/SO Shared Radio"}
+    ]
+}
