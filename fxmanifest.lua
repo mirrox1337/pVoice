@@ -15,5 +15,5 @@ fx_version 'adamant'
 dependency 'yarn'
 dependency 'webpack'
 
---webpack_config 'webpack/client.config.js'
---webpack_config 'webpack/server.config.js'
+webpack_config 'webpack/client.config.js'
+webpack_config 'webpack/server.config.js'
